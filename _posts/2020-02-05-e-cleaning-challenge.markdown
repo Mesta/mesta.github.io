@@ -10,11 +10,11 @@ Here is things I've done to do so:
 ## Emails inboxes
 - All my emails inbox are empty by default for several years now (but I do not receive that much compare to some of my coworkers)
 - I archived the important ones on my NAS
+- I unsubscribe every newsletter I don’t care about for many years now (and it has been the most effective anti-spam filter ever).
 
 ## Browsing
 - I installed [Ecosia](https://ecosia.org/) to my relatives.
 - I won’t use another browse engine for myself. [Duckduckgo](http://duckduckgo.com/) is the best for my needs :).
-- I unsubscribe every newsletter I don’t care about for many years now (and it has been the most effective anti-spam filter ever).
 - I used to self-host my cloud infrastructure, but it’s a lot of work for a high availability… I’m relying on Google now. However, I'm pretty sure Google has a more efficient power management than I do so… I'm ok with that.
  
 ## Hardware
