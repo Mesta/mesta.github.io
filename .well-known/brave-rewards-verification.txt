@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mesta.github.io
+Token: 571a8043ea368d0dd975da422e394ead27f5a899c5211cde9eb87c07e2490264
