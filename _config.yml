@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: mesta.io
-email:
-description: >- # this means to ignore newlines until "baseurl:"
+email: jeremy@mesta.io
+description: >-
   Just a website :) More to come
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mesta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
+twitter_username: Mestarine
 github_username:  Mesta
+includes_dir: .well-known
 
 theme: minima
 plugins:
