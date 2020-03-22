@@ -25,7 +25,8 @@ description: >-
 url: "https://mesta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Mestarine
 github_username:  Mesta
-includes_dir: .well-known
+include:
+  - .well-known
 
 theme: minima
 plugins:
