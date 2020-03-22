@@ -28,6 +28,6 @@ github_username:  Mesta
 include:
   - .well-known
 
-theme: jekyll-theme-slate
+theme: minima
 plugins:
   - jekyll-feed
