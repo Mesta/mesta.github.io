@@ -14,8 +14,14 @@
             background-color: #f8f9fa;
             color: #495057;
         }
-        a {
-            text-underline: none;
+        .swan {
+            text-decoration: none;
+            color: inherit;
+            font-weight: bold;
+        }
+        .swan:hover {
+            color: #6c5ce7;
+            transition: color 0.3s ease;
         }
         .container {
             background-color: #ffffff;
@@ -85,10 +91,10 @@
 <body>
     <div class="container">
         <h1>Jeremy Lardet</h1>
-        <div class="position">Engineering Director @ Swan</div>
+        <div class="position">Engineering Director @ <a class="swan" href="https://www.swan.io">Swan</a></div>
 
         <p>
-            As Engineering Director at Swan, I lead teams building innovative embedded finance solutions.
+            As Engineering Director at <a href="https://www.swan.io" class="swan">Swan</a>, I lead teams building innovative embedded finance solutions.
             With a passion for technology and leadership, I help drive our mission to make banking more accessible.
         </p>
 
