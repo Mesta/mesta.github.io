@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 410" width="410" height="410" fill="none">
+  <defs>
+    <linearGradient id="brand-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="20%" stop-color="#B0CDE2" />
+      <stop offset="50%" stop-color="#B2DEBC" />
+      <stop offset="80%" stop-color="#C9C8F6" />
+    </linearGradient>
+  </defs>
+  <!-- Isometric M: front face -->
+  <polyline
+    points="90,330 90,110 205,210 320,110 320,330"
+    stroke="url(#brand-gradient)"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+  <!-- Isometric depth: top edges going back -->
+  <line x1="90" y1="110" x2="130" y2="80" stroke="url(#brand-gradient)" stroke-width="10" stroke-linecap="round" />
+  <line x1="205" y1="210" x2="245" y2="180" stroke="url(#brand-gradient)" stroke-width="10" stroke-linecap="round" />
+  <line x1="320" y1="110" x2="360" y2="80" stroke="url(#brand-gradient)" stroke-width="10" stroke-linecap="round" />
+  <!-- Isometric depth: back face top portion -->
+  <polyline
+    points="130,80 245,180 360,80"
+    stroke="url(#brand-gradient)"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+  <!-- Isometric depth: right side vertical -->
+  <line x1="360" y1="80" x2="360" y2="300" stroke="url(#brand-gradient)" stroke-width="10" stroke-linecap="round" />
+  <!-- Isometric depth: bottom right connector -->
+  <line x1="320" y1="330" x2="360" y2="300" stroke="url(#brand-gradient)" stroke-width="10" stroke-linecap="round" />
+</svg>

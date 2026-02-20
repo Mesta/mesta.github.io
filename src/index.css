@@ -1,68 +1,94 @@
-:root {
-	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-	line-height: 1.5;
-	font-weight: 400;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
-	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
+:root {
+	/* Brand colors */
+	--soft-blue: #aed0e2;
+	--mint-green: #b2e0c1;
+	--lavender: #cbcdfa;
+
+	/* Saturated variants */
+	--deep-blue: #5b9ab5;
+	--deep-green: #5daa7a;
+	--deep-purple: #8285d6;
+
+	/* Neutrals */
+	--white: #f6f6f8;
+	--black: #2e3440;
+	--grey: #4f5867;
+
+	/* Typography */
+	font-family: "Montserrat", system-ui, sans-serif;
+	font-weight: 300;
+	line-height: 1.6;
+	font-size: 16px;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
 
-a {
-	font-weight: 500;
-	color: #646cff;
-	text-decoration: inherit;
-}
-a:hover {
-	color: #535bf2;
+	/* Dark mode defaults */
+	color: var(--white);
+	background-color: var(--black);
 }
 
 body {
 	margin: 0;
-	display: flex;
-	place-items: center;
-	min-width: 320px;
 	min-height: 100vh;
 }
 
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 300;
+	line-height: 1.2;
+}
+
 h1 {
-	font-size: 3.2em;
-	line-height: 1.1;
+	font-size: 3rem;
 }
 
-button {
-	border-radius: 8px;
-	border: 1px solid transparent;
-	padding: 0.6em 1.2em;
-	font-size: 1em;
+h2 {
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 1.125rem;
 	font-weight: 500;
-	font-family: inherit;
-	background-color: #1a1a1a;
-	cursor: pointer;
-	transition: border-color 0.25s;
-}
-button:hover {
-	border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-	outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-	:root {
-		color: #213547;
-		background-color: #ffffff;
+p {
+	font-weight: 300;
+}
+
+a {
+	color: var(--soft-blue);
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+a:hover {
+	color: var(--lavender);
+}
+
+code {
+	font-family: "Fira Code", monospace;
+	font-size: 0.9em;
+}
+
+@media (max-width: 640px) {
+	h1 {
+		font-size: 2.25rem;
 	}
-	a:hover {
-		color: #747bff;
-	}
-	button {
-		background-color: #f9f9f9;
+	h2 {
+		font-size: 1.25rem;
 	}
 }
